@@ -36,7 +36,11 @@
             this.lstOutput.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.lstOutput.ColumnWidth = 20;
             this.lstOutput.FormattingEnabled = true;
+            this.lstOutput.Items.AddRange(new object[] {
+            "Строка Коллекций",
+            "Кек"});
             this.lstOutput.Location = new System.Drawing.Point(12, 12);
             this.lstOutput.Name = "lstOutput";
             this.lstOutput.Size = new System.Drawing.Size(516, 121);

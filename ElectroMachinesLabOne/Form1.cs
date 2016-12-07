@@ -36,8 +36,10 @@ namespace ElectroMachinesLabOne
         }
         private double p(double i, double u1)
         { return (i * u1); }
+
         private double hurma(double Ppr, double P1)
         { return Ppr/P1; }
+
         private string Concat(List<double> Massive, List<double> multiplier, string columnName)
         {
             string sb = columnName;
